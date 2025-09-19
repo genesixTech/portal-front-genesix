@@ -1,7 +1,8 @@
 import Header from "@/components/Header";
 import NavigationMenu from "@/components/NavigationMenu";
 import PromotionBanner from "@/components/PromotionBanner";
-import "./home.scss";
+import "./page.scss";
+import SectionCompanies from "@/components/SectionCompanies";
 
 export default function Home() {
   return (
@@ -43,6 +44,8 @@ export default function Home() {
           <p>Valide tudo sem a necessidade de um time</p>
         </div>
       </div>
+
+      <SectionCompanies />
     </>
   );
 }

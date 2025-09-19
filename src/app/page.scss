@@ -19,19 +19,19 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 573px) and (max-width: 1023px) {
   .banner-purple {
     padding-inline: 1rem;
     margin-top: 3rem;
 
     .information-icon {
-      font-size: .9rem;
-      padding: .7rem;
+      font-size: 0.9rem;
+      padding: 0.7rem;
     }
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1469px) {
   .banner-purple {
     padding-inline: 4rem;
     margin-top: 4rem;
@@ -39,7 +39,18 @@
     .information-icon {
       font-size: 1.7rem;
       padding-inline: 2rem;
+    }
+  }
+}
 
+@media screen and (min-width: 1470px) {
+  .banner-purple {
+    padding-inline: 4rem;
+    margin-top: 4rem;
+
+    .information-icon {
+      font-size: 1.7rem;
+      padding-inline: 2rem;
     }
   }
 }

@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 573px) and (max-width: 1023px) {
   .promotionBanner {
     height: 3rem;
 
@@ -42,7 +42,22 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .promotionBanner {
+    height: 3rem;
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    .cupom {
+      font-size: 1rem;
+      padding: 0.3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .promotionBanner {
     height: 3rem;
 

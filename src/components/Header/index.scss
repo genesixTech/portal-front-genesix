@@ -24,20 +24,14 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 573px) and (max-width: 1023px) {
   .section-header {
     p {
       font-size: 0.7rem;
     }
 
     h1 {
-      color: #9817fb;
-      font-weight: 600;
       font-size: 1.5rem;
-
-      span {
-        color: black;
-      }
     }
 
     .painel-header {
@@ -48,32 +42,52 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   .section-header {
     display: flex;
     flex-direction: row;
     padding-inline: 9rem;
 
     p {
-      font-size: 1rem;
+      font-size: 0.9rem;
       width: 45rem;
     }
 
     margin-top: 2rem;
 
     h1 {
-      color: #9817fb;
-      font-weight: 600;
-      font-size: 3.5rem;
-      width: 50rem;
-
-      span {
-        color: black;
-      }
+      font-size: 3rem;
+      width: 45rem;
     }
 
     .painel-header {
-      width: 40rem;
+      width: 31rem;
+      height: 30rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-header {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 9rem;
+
+    p {
+      font-size: 0.9rem;
+      width: 45rem;
+    }
+
+    margin-top: 2rem;
+
+    h1 {
+      font-size: 3.4rem;
+      width: 50rem;
+    }
+
+    .painel-header {
+      width: 35rem;
       height: 30rem;
       margin-top: 1rem;
     }

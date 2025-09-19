@@ -1,0 +1,90 @@
+.section-companies {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-items: center;
+
+  .title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #9817fb;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-logo {
+    margin-top: 1rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 5fr);
+
+    .logo-companies {
+      background-color: #9817fb;
+      padding: 0.2rem;
+      border-radius: 0.5rem;
+      width: 8rem;
+    }
+
+    .nubank-logo {
+      background-color: white;
+      border: 0.1rem solid #9817fb;
+    }
+  }
+}
+
+@media screen and (min-width: 573px) and (max-width: 1023px) {
+  .section-companies {
+    .title {
+      font-size: 1.2rem;
+    }
+
+    .section-logo {
+      margin-top: 1rem;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(3, 5fr);
+
+      .logo-companies {
+        width: 9rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .section-companies {
+    .title {
+      font-size: 1.4rem;
+    }
+
+    .section-logo {
+      margin-top: 1rem;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(4, 5fr);
+
+      .logo-companies {
+        width: 15rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-companies {
+    .title {
+      font-size: 1.6rem;
+    }
+
+    .section-logo {
+      margin-top: 1rem;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(4, 5fr);
+
+      .logo-companies {
+        width: 16rem;
+      }
+    }
+  }
+}

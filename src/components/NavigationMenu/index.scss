@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 573px) and (max-width: 1023px) {
   .navigationMenu {
     padding-inline: 1.5rem;
     .menu {
@@ -90,7 +90,49 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .navigationMenu {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    padding-inline: 5rem;
+
+    .logo-genesix-desktop {
+      display: flex;
+      width: 20rem;
+      height: 4.6rem;
+      padding-block: 0.5rem;
+    }
+
+    .menu {
+      gap: 5rem;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .section-login-menu {
+      gap: 1rem;
+
+      .login {
+        font-size: 1.5rem;
+      }
+
+      .icon-user {
+        width: 2rem;
+        height: 5rem;
+      }
+    }
+  }
+
+  .section-logo-genesix-mobile {
+    .logo-genesix-mobile {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .navigationMenu {
     display: flex;
     justify-content: space-between;
