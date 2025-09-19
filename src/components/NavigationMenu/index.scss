@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (min-width: 573px) and (min-height: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .navigationMenu {
     padding-inline: 1.5rem;
     .menu {
@@ -90,7 +90,7 @@
   }
 }
 
-@media screen and (min-width: 1559px) and (min-height: 767px) {
+@media screen and (min-width: 1024px) {
   .navigationMenu {
     display: flex;
     justify-content: space-between;
