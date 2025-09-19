@@ -1,0 +1,45 @@
+.banner-purple {
+  background-color: #3a0066;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  padding-inline: 1rem;
+  margin-top: 2.5rem;
+
+  .information-icon {
+    font-size: 0.6rem;
+    padding: 1rem;
+    width: 20rem;
+
+    span {
+      color: #cb74e7;
+    }
+  }
+}
+
+@media screen and (min-width: 573px) and (min-height: 767px) {
+  .banner-purple {
+    padding-inline: 1rem;
+    margin-top: 3rem;
+
+    .information-icon {
+      font-size: .9rem;
+      padding: .7rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1559px) and (min-height: 767px) {
+  .banner-purple {
+    padding-inline: 4rem;
+    margin-top: 4rem;
+
+    .information-icon {
+      font-size: 1.7rem;
+      padding-inline: 2rem;
+
+    }
+  }
+}

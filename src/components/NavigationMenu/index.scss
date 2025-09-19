@@ -1,0 +1,133 @@
+.navigationMenu {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-inline: 1rem;
+  padding-inline: 1rem;
+
+  background-color: #f7f5ff;
+
+  border-radius: 1.5rem;
+
+  .logo-genesix-desktop {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    p {
+      cursor: pointer;
+    }
+
+    p:hover {
+      color: #9000ff;
+    }
+  }
+
+  .section-login-menu {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+
+    .login {
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .login:hover {
+      color: #9817fb;
+    }
+
+    .icon-user {
+      height: 1.5rem;
+      color: #9817fb;
+    }
+  }
+}
+
+.section-logo-genesix-mobile {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+  .logo-genesix-mobile {
+    display: flex;
+    width: 17rem;
+    height: 5rem;
+  }
+}
+
+@media screen and (min-width: 573px) and (min-height: 767px) {
+  .navigationMenu {
+    padding-inline: 1.5rem;
+    .menu {
+      gap: 3.5rem;
+      font-size: 1.1rem;
+    }
+
+    .section-login-menu {
+      gap: 0.5rem;
+
+      .login {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .section-logo-genesix-mobile {
+    .logo-genesix-mobile {
+      width: 20rem;
+      height: 5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1559px) and (min-height: 767px) {
+  .navigationMenu {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    padding-inline: 5rem;
+
+    .logo-genesix-desktop {
+      display: flex;
+      width: 20rem;
+      height: 4.6rem;
+      padding-block: 0.5rem;
+    }
+
+    .menu {
+      gap: 5rem;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .section-login-menu {
+      gap: 1rem;
+
+      .login {
+        font-size: 1.5rem;
+      }
+
+      .icon-user {
+        width: 2rem;
+        height: 5rem;
+      }
+    }
+  }
+
+  .section-logo-genesix-mobile {
+    .logo-genesix-mobile {
+      display: none;
+    }
+  }
+}
